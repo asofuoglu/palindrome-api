@@ -7,5 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PalindromeApplication {
   public static void main(String[] args) {
     SpringApplication.run(PalindromeApplication.class, args);
+
+
   }
 }
