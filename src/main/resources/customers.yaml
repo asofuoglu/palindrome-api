@@ -1,0 +1,37 @@
+customer:
+  customers:
+    - name: Ilenia
+      originatorName: Ilenia Nova
+      description: Bank prospect
+      type: PROSPECT
+      coowner: empty
+      savingAccount: IT66X0347501600000000000014
+      linkedAccount: IT06K0300210001000000005579
+
+    - name: Stefano
+      originatorName: Stefano Enrico Maria Caccialupi Olivieri Parteguelfa
+      description: CA Client with one revoked linked account and 1 active linked account
+      type: CUSTOMER
+      coowner: empty
+      savingAccount: IT38U0347501600000000000011
+      linkedAccount: IT72Z0316903200000000099100
+
+    - name: Francesco
+      originatorName: Francesco Simone Gandelli
+      description: CA Client with one revoked linked account and 1 active linked account
+      type: CUSTOMER
+      coowner: Gianluca
+      savingAccount: IT29D0503433690000000055890
+      linkedAccount: IT16M0503433690000000055899
+
+    - name: Gianluca
+      originatorName: Gianluca Ricciardulli, Francesco Simone Gandelli
+      description: CA Client with one revoked linked account and 1 active linked account
+      type: CUSTOMER
+      coowner: Francesco
+      savingAccount: IT38H0120003200000000003003
+      linkedAccount: IT60X0542811101000000123456
+
+
+
+
