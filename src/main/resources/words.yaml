@@ -1,6 +1,0 @@
-words:
-  - text: "racecar"
-    isPalindrome: true
-  - text: "hello"
-    isPalindrome: false
-

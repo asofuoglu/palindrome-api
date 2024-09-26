@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f899f43a-c49a-4b7f-943d-e245ad105d00" name="Changes" comment="added" />
+    <list default="true" id="f899f43a-c49a-4b7f-943d-e245ad105d00" name="Changes" comment="added">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PalindromeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PalindromeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PalindromeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/words.yaml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -21,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2lezaGojQRLodrD3yZcqOAALuWw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,7 +49,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -42,10 +58,10 @@
       <recent name="C:\Users\adana\IdeaProjects\API_PALINDROM\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromeApplication">
-    <configuration name="PalindromeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.PalindromeApplication" />
-      <module name="API_PALINDROM" />
+  <component name="RunManager" selected="Application.MoneyTransferApplication">
+    <configuration name="MoneyTransferApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MoneyTransferApplication" />
+      <module name="MoneyTransferMockApi" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
@@ -82,6 +98,7 @@
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -96,6 +113,9 @@
             <option name="profilesMap">
               <map />
             </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
           </MavenRunnerParameters>
@@ -104,14 +124,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PalindromeApplication" />
+      <item itemvalue="Application.MoneyTransferApplication" />
       <item itemvalue="JUnit.PalindromeApiTest.testPalindromeApi" />
       <item itemvalue="JUnit.PalindromeControllerTest.testCheckNonPalindrome" />
       <item itemvalue="Maven.palindrome-api [clean...]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PalindromeApplication" />
+        <item itemvalue="Application.MoneyTransferApplication" />
         <item itemvalue="JUnit.PalindromeApiTest.testPalindromeApi" />
         <item itemvalue="JUnit.PalindromeControllerTest.testCheckNonPalindrome" />
       </list>
