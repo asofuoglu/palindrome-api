@@ -30,10 +30,17 @@ public class MoneyTransferController {
 
   private boolean isTransferValid(User inputUser) {
     User storedUser = customerStore.get(inputUser.getName());
-    return storedUser != null
-        && storedUser.getOriginatorName().equalsIgnoreCase(inputUser.getOriginatorName())
+
+    if (storedUser == null) {
+      throw new UserNotFoundException("User not found: " + inputUser.getName());
+    }
+    boolean isCoownerValid =
+        (storedUser.getCoowner() == null && inputUser.getCoowner() == null)
+            || (storedUser.getCoowner() != null
+                && storedUser.getCoowner().equalsIgnoreCase(inputUser.getCoowner()));
+    return storedUser.getOriginatorName().equalsIgnoreCase(inputUser.getOriginatorName())
         && storedUser.getLinkedAccount().equalsIgnoreCase(inputUser.getLinkedAccount())
-        && storedUser.getCoowner().equalsIgnoreCase(inputUser.getCoowner());
+        && isCoownerValid;
   }
 
   private Map<String, Boolean> createResponse(boolean isTransferCompleted) {

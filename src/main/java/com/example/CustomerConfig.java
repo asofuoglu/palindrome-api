@@ -1,21 +1,13 @@
 package com.example;
 
-import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
-
 import java.util.List;
 
 @Component
 @ConfigurationProperties(prefix = "customer")
 public class CustomerConfig {
-  private List<User> customers; // Ensure this is a List<User>
+  private List<User> customers;
 
   public List<User> getCustomers() {
     return customers;
